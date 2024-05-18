@@ -1,0 +1,49 @@
+
+
+
+# Dataset Card for Dataset Name
+Recettes typiques d'Amérique Latine.
+
+
+## Dataset Details
+Ce dataset possède recettes d'Amérique Latine en espagnol.
+
+- **Language(s) (NLP):** Espagnol
+
+
+### Dataset Sources [optional]
+
+
+- **Repository:** https://github.com/Paz2311/Outils_corpus/tree/main
+
+
+## Uses
+
+Son objectif est de servir en tant que corpus pour l'entraînement des modèles de question/aswering. Le modèle sera capable de répondre à des questions et/ou instructions telles que "Qu'est'ce que je peux faire avec trois ingrédients ?", "Donnez-moi la recette d'un menu végétarien" et "Donnez moi une recette colombienne".
+
+
+## Dataset Structure
+
+Ce dataset possède 90 recettes d'Amérique Latine, avec les attributs "id", "nom", "link", "ingredients", "pas", "temps", "catégorie", "nationalité_recette", "convive" et "valeur_nutritionnelle".
+
+
+
+## Dataset Creation
+
+
+### Source Data
+
+Les recettes ont été obtenues du site : https://www.comedera.com, qui possède des recettes de plusieurs lieux du monde.
+
+#### Data Collection and Processing
+
+Ce dataset a été construit avec le scrapping, l'exportation des données et la transformation en dataset, avec les libriries _requests, BeautifulSoup, Pandas et Dataset_
+
+
+
+## Dataset Card Authors 
+
+Maria Paz Botero
+
+
+
